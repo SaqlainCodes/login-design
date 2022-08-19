@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-container{
+   background-color: orangered;
+   background-image: url(/img/bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+}
+.welcome{
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+.bttn{
+    color: purple;
+    box-shadow: ;
+    border: 2px  solid white;
+    padding: 10px 25px;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px rgba(0, 1, 1, 11%);
+}
+#btn-login{
+    background: blueviolet;
+    padding: 14px 230px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    margin-right: 40px;
+    margin-left: -17spx;
+}
+.login-sso p{
+    text-align: center;
+}
+.login-sso{
+    color: purple;
+}
+
+.main-Div{
+     width: 50%;
+     margin: 0 auto;
+    background: white;
+    height: 400px;
+    box-shadow: 3px 5px 5px rgba(0, 1, 1, 0.3);
+    border-radius: 10px;
+}
+#logo{
+    width: 150px;
+
+}
+.div-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
